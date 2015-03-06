@@ -15,6 +15,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         MaterialImageView materialImageView = (MaterialImageView)findViewById(R.id.pic1);
+        //设置图片的圆角
         materialImageView.setRotation(-10);
     }
 
